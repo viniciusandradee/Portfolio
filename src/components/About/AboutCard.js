@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             I am a Full Stack Developer with a passion for technology and problem-solving.
             <br />
-            I'm currently focused on building solutions in various areas, including database management, full-stack development, and machine learning.
+            I'm currently focused on building solutions in various areas, including full-stack development, database management, and machine learning.
             <br/>
             I am a graduate of FIAP.
             <br />

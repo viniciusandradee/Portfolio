@@ -24,15 +24,20 @@ function Home2() {
                 <b className="purple"> FrontEnd Development, BackEnd Development, Machine Learning and Data Analysis . </b>
               </i>
               <br />
-              <br />For Database, besides modelling, my knowledge goes for
+              <br />For FrontEnd, my knowledge goes for
               <i>
-                <b className="purple"> MySQL, Oracle, SQL Server, PostgreSQL, and NoSQL using MongoDb. </b>
+                <b className="purple"> React, ReactNative, Flutter, Angular.</b>
+              </i>
+              <br />
+              <br />In the field of Data Analysis and Machine Learning, I work extensively with
+              <i>
+                <b className="purple"> Pandas, Scikit-Learn, Keras and Pytorch.</b>
               </i>
               <br />
               <br />
-              In the field of Data Analysis and Machine Learning, I work extensively with 
+              For Database, besides modelling, my knowledge goes for
               <i>
-                <b className="purple"> Pandas, Scikit-Learn, Keras and Pytorch. </b>
+                <b className="purple"> MySQL, Oracle, SQL Server, PostgreSQL, and NoSQL using MongoDb. </b>
               </i>
               <br />
               <br />
