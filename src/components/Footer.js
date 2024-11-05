@@ -16,9 +16,6 @@ function Footer() {
         <Col md="4" className="footer-copywright">
           <h3>Full Stack Developer</h3>
         </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright ©</h3>
-        </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
@@ -52,6 +49,9 @@ function Footer() {
               </a>
             </li>
           </ul>
+        </Col>
+        <Col md="4" className="footer-copywright">
+          <h3>Copyright ©</h3>
         </Col>
       </Row>
     </Container>
