@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             I am a Full Stack Developer with a passion for technology and problem-solving.
             <br />
-            I’m currently focused on building solutions in various areas, including database management, full-stack development, and machine learning.
+            I'm currently focused on building solutions in various areas, including database management, full-stack development, and machine learning.
             <br/>
             I am a graduate of FIAP.
             <br />
@@ -23,9 +23,11 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Backend and Frontend development (Flask, Spring Boot, React, React Native)
             </li>
+            <br/>
             <li className="about-activity">
               <ImPointRight /> Database design and implementation (MySQL, Oracle, SQL Server, PostgreSQL)
             </li>
+            <br/>
             <li className="about-activity">
               <ImPointRight /> Data analysis and machine learning (Python, Pandas, Scikit-Learn)
             </li>

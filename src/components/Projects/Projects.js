@@ -2,12 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import lung from "../../Assets/Projects/lung.png";
+import ecoocean from "../../Assets/Projects/EcoOcean.JPG";
+import inscreening from "../../Assets/Projects/InScreening.jpg";
+
 
 function Projects() {
   return (
@@ -20,17 +18,41 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
+
+        <h2 className="category-heading">  <strong className="purple">Mobile</strong></h2>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={ecoocean}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="EcoOcean events"
+              description="EcoOcean is an application that carries out collection events aimed at environmental protection on beaches, so that during the events, participants come together to collect rubbish in a playful way"
+              ghLink="https://github.com/viniciusandradee/EcoOcean-Mobile"
             />
-          </Col>          
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={inscreening}
+              isBlog={false}
+              title="InScreening"
+              description="InScreening is an application that helps patients carry out their screening more quickly, speeding up exams and discovering their diagnosis more easily"
+              ghLink="https://github.com/viniciusandradee/InScreening-Mobile"
+            />
+          </Col>
+        </Row>
+
+
+        <h2 className="category-heading">  <strong className="purple">Machine Learning</strong></h2>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={lung}
+              isBlog={false}
+              title="Lung cancer prediction model"
+              description="A model capable of distinguishing between normal lungs and lungs with cancer, based on patterns identified in training images."
+              ghLink="https://github.com/leitidev/InScreening-IA/tree/sprint3"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
